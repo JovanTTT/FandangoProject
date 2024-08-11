@@ -4,7 +4,7 @@ This project investigates the accuracy of Fandango's movie ratings by comparing 
 
 ## Project Overview
 
-Fandango is a popular movie ticketing service, but in recent years, it faced criticism for displaying inflated movie ratings. This project aims to analyze and compare Fandango's movie ratings with ratings from other platforms to determine if there was any bias or manipulation.
+Fandango is a popular movie ticketing service. In 2020, it faced criticism for displaying inflated movie ratings, which forced Fandango to remove them from their site. This project aims to analyze and compare Fandango's movie ratings with ratings from other platforms to determine if there was any bias or manipulation.
 
 ## Tools and Libraries
 
@@ -16,14 +16,14 @@ Fandango is a popular movie ticketing service, but in recent years, it faced cri
 
 ## Data Sources
 
-- Fandango's movie ratings from [Year].
-- Comparison data from other movie rating platforms (e.g., IMDb, Rotten Tomatoes).
+- "fandango_scrape.csv" --> Fandango's movie ratings from [2015].
+- "all_sites_scores.csv" --> Comparison data from other movie rating platforms (IMDb, Rotten Tomatoes).
 
 ## Methodology
 
 1. **Data Collection**: Gathered movie ratings data from Fandango and other platforms.
 2. **Data Cleaning**: Cleaned and structured the data using Pandas.
-3. **Analysis**: Performed exploratory data analysis (EDA) to compare ratings using NumPy for computations.
+3. **Analysis**: Performed exploratory data analysis to compare ratings using NumPy for computations.
 4. **Visualization**: Used Seaborn and Matplotlib to create visualizations that highlight discrepancies in ratings.
 
 ## Key Findings
